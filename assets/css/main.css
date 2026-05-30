@@ -411,6 +411,20 @@ a:hover {
 	color: #18bfef !important;
 }
 
+/* Publication link: theme blue by default, dark on hover */
+.pub-link {
+	color: #2b8cff !important;
+	border-bottom: none;
+	text-decoration: none;
+	transition: color 0.15s ease-in-out;
+}
+.pub-link:hover,
+.pub-link:focus {
+	color: #111319 !important;
+	border-bottom-color: transparent;
+	text-decoration: underline;
+}
+
 strong,
 b {
 	color: #212931;
